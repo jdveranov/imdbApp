@@ -14,8 +14,14 @@
     <string name="facebook_logo">facebook_logo</string>
     <string name="google_logo">google_logo</string>
 
-    //Rgister activity
-    <string name="contraseña">Contraseña</string>
+    //Login activity
+    <string name="user">Usuario</string>
+    <string name="option">O puedes ingresar con:</string>
+    <string name="question">¿No tienes cuenta? Regístrate</string>
+    <string name="guest">Continuar como invitado</string>
+
+
+    //Registration activity
     <string name="create_account">Crear una cuenta</string>
     <string name="name">Nombre</string>
     <string name="email">Correo electrónico</string>
