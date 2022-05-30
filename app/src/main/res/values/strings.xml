@@ -10,4 +10,18 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="usuario">Usuario</string>
+    <string name="apple_logo">apple_logo</string>
+    <string name="facebook_logo">facebook_logo</string>
+    <string name="google_logo">google_logo</string>
+
+    //Rgister activity
+    <string name="contraseña">Contraseña</string>
+    <string name="create_account">Crear una cuenta</string>
+    <string name="name">Nombre</string>
+    <string name="email">Correo electrónico</string>
+    <string name="hintEmail">pepitoperez@gmail.com</string>
+    <string name="hintName">Pepito Pérez</string>
+    <string name="password">Contraseña</string>
+    <string name="advice_password">La contraseña debe contener 8 caracteres</string>
+    <string name="accept_button">Aceptar</string>
 </resources>

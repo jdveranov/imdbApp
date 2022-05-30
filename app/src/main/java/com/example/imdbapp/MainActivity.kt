@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun changeActivity(){
         Handler(Looper.myLooper()!!).postDelayed(Runnable {
-            val intent = Intent (this, LoginActivity::class.java )
+            val intent = Intent (this, RegisterActivity::class.java )
             startActivity(intent)
         }, duration)
     }
