@@ -23,8 +23,10 @@ class MainActivity : AppCompatActivity() {
         this.window.setFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
         val logo = findViewById<ImageView>(R.id.logo_imdb)
+        val loader = findViewById<ImageView>(R.id.loader_imdb)
 
         Glide.with(this).load(R.drawable.imdb_logo).into(logo)
+        Glide.with(this).load(R.drawable.loader).into(loader)
 
         changeActivity()
     }
