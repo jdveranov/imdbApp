@@ -16,7 +16,7 @@
 
 
         android:layout_marginTop="100dp"
-        app:srcCompat="@drawable/imdb_logo2016" />
+        app:srcCompat="@drawable/imdb_logo" />
 
     <TextView
         android:id="@+id/txt_usuario"
