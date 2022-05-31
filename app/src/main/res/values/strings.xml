@@ -32,4 +32,7 @@
     <string name="password">Contraseña</string>
     <string name="advice_password">La contraseña debe contener 8 caracteres</string>
     <string name="accept_button">Aceptar</string>
+
+    //Gallery activity
+    <string name="search">Buscar IMDb</string>
 </resources>
