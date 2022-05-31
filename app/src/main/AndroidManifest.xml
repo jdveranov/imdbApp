@@ -13,7 +13,8 @@
         android:theme="@style/Theme.IMDbApp">
         <activity
             android:name=".GalleryActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:windowSoftInputMode="stateHidden"/>
         <activity
             android:name=".RegisterActivity"
             android:exported="false"
