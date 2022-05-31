@@ -3,6 +3,8 @@ package com.example.imdbapp.commons
 data class Movie (
     val url: String,
     val title: String,
-    val rating: Float
+    val year: Short,
+    val casting: String,
+    val type: String,
 
         )
