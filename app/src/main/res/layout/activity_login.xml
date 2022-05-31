@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FDC932"
+    android:background="@color/imdb_color"
     tools:context=".LoginActivity">
 
     <LinearLayout
@@ -47,15 +47,13 @@
             android:hint="@string/email"
             android:layout_marginStart="40dp"
             android:layout_marginEnd="40dp"
-            android:background="@color/white"
-            app:boxStrokeColor="@color/colorPrimary"
             app:hintTextColor="@color/gray_title"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                />
+                android:background="@drawable/rounded_corners"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -82,6 +80,7 @@
             android:layout_marginStart="40dp"
             android:layout_marginEnd="40dp"
             app:helperText="@string/advice_password"
+
             app:boxStrokeColor="@color/colorPrimary"
             app:hintTextColor="@color/gray_title"
             android:hint="@string/password"
@@ -93,19 +92,19 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/tie_passwordRegistration"
                 android:inputType="textPassword"
-                android:background="@color/white"/>
+                android:background="@drawable/rounded_corners"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/btn_acceptLogin"
+            android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
-            android:text="@string/accept_button"
-            android:background="@color/gray_title"
+            android:text="@string/login"
+            android:backgroundTint="@color/colorPrimary"
             android:textStyle="bold"/>
 
         <TextView
@@ -158,17 +157,38 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <TextView
-            android:id="@+id/txt_question"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="@string/question"
+            android:orientation="horizontal">
 
-            android:textColor="@color/gray_title"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txt_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="@string/question"
+                android:textColor="@color/gray_title"
+                android:textSize="18sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/txt_register"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:text="@string/register"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/txt_guest"
@@ -179,7 +199,7 @@
             android:layout_marginTop="15dp"
 
             android:textSize="18sp"
-            android:textColor="@color/gray_title"
+            android:textColor="@color/black"
             android:textStyle="bold" />
 
 </LinearLayout>

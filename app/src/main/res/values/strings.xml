@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">IMDb App</string>
+    <string name="app_name">IMDb</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -17,8 +17,10 @@
     //Login activity
     <string name="user">Usuario</string>
     <string name="option">O puedes ingresar con:</string>
-    <string name="question">¿No tienes cuenta? Regístrate</string>
+    <string name="question">¿No tienes cuenta?</string>
+    <string name="register">Regístrate</string>
     <string name="guest">Continuar como invitado</string>
+    <string name="login">Login</string>
 
 
     //Registration activity

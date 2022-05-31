@@ -3,11 +3,9 @@ package com.example.imdbapp
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-class RegisterActivity : AppCompatActivity() {
+class GalleryActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_register)
-
-
+        setContentView(R.layout.activity_recycle_view)
     }
 }
