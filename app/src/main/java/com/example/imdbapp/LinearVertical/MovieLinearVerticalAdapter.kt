@@ -28,5 +28,3 @@ abstract class MovieLinearVerticalAdapter (
 
     override fun getItemCount(): Int = data.size
     }
-
-}
