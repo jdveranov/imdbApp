@@ -23,6 +23,7 @@
             android:layout_marginTop="30dp"
             app:hintTextColor="@color/gray_title"
 
+
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText

@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.imdbapp.R
 import com.example.imdbapp.commons.Movie
 
-abstract class MovieLinearVerticalAdapter (
+class MovieLinearVerticalAdapter (
     val data: List<Movie>
     ) : RecyclerView.Adapter<MovieLinearVerticalViewHolder>() {
 

@@ -5,6 +5,4 @@ data class Movie (
     val title: String,
     val year: Short,
     val casting: String,
-    val type: String,
-
-        )
+    )
