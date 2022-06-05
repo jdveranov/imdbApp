@@ -1,6 +1,7 @@
 package com.example.imdbapp
 
 import android.os.Bundle
+import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.imdbapp.LinearVertical.MovieLinearVerticalAdapter
@@ -20,6 +21,8 @@ class GalleryActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityGalleryBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.scroll.isFocusableInTouchMode= true
+        binding.scroll.descendantFocusability= ViewGroup.FOCUS_BEFORE_DESCENDANTS
     }
 
     override fun onStart() {
@@ -40,7 +43,6 @@ class GalleryActivity : AppCompatActivity() {
             data.clear()
             data.addAll(newData)
             adapterMovies.notifyDataSetChanged()
-
         }
 
         fun getData(): List<Movie> {
